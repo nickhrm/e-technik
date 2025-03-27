@@ -13,6 +13,6 @@ export function FieldArrow(props: ArrowProps) {
             <div
                 className="w-0 h-0 border-l-[3px] border-r-[3px] border-t-[10px] border-l-transparent border-r-transparent" style={{ borderTopColor: props.color }}>
             </div>
-        </div>
+         </div>
     )
-}
+} 
