@@ -15,13 +15,13 @@ Hinweis: Die D-Feld-Pfeile werden ohne Einbeziehung der permitivität des Vakuum
 # Funktionsweise
 Ein Plattenkondensator besteht aus zwei parallelen Platten, die durch einen Abstand d voneinander getrennt sind. An den Platten liegt eine Spannung U an, sodass sich zwischen ihnen ein elektrisches Feld (E-Feld) aufbaut.
 
-### E-Feld
+## E-Feld
 Das elektrische Feld in einem idealen Plattenkondensator lässt sich berechnen durch E=Ud.
 
-### Dielektrikum und Permitivität
+## Dielektrikum und Permitivität
 Befindet sich ein Dielektrikum zwischen den Platten, wird dieses durch seine relative Permittivität εr (im Code: RELATIVE_PERMITTIVITIES) charakterisiert. Die Permittivität des Vakuums wird durch ε0​ (im Code: PERMITTIVITY_VACUUM) dargestellt.
 
-### D-Feld
+## D-Feld
 Das elektrische Verschiebungsfeld (D-Feld) ist abhängig von E-Feld, Vakuumpermittivität und der relativen Permittivität: D=ε0⋅εr⋅E.
 Im Code wird dies umgesetzt, indem das aus E=U/d berechnete E-Feld mit der relativen Permittivität des gewählten Materials und ε0 multipliziert wird.
 
